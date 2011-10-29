@@ -95,6 +95,10 @@ PRODUCT_PACKAGES += \
 	libcamera \
 	libstagefrighthw
 
+# Device-specific packages
+PRODUCT_PACKAGES += \
+	AriesParts
+
 # apns config file
 PRODUCT_COPY_FILES += \
         vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
