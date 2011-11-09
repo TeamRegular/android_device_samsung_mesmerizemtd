@@ -41,8 +41,8 @@ TARGET_BOOTLOADER_BOARD_NAME := aries
 TARGET_RECOVERY_INITRC := device/samsung/aries-common/recovery.rc
 
 # Releasetools
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/samsung/aries-common/releasetools/aries_ota_from_target_files
-TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/samsung/aries-common/releasetools/aries_img_from_target_files
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/samsung/mesmerizemtd/releasetools/mesmerizemtd_ota_from_target_files
+TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/samsung/mesmerizemtd/releasetools/mesmerizemtd_img_from_target_files
 
 # Camera
 USE_CAMERA_STUB := false
@@ -65,9 +65,6 @@ BOARD_CAMERA_DEVICE := /dev/video0
 # FM Radio
 #BOARD_HAVE_FM_RADIO := true
 #BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
-
-# sensors
-TARGET_USES_OLD_LIBSENSORS_HAL := true
 
 BOARD_NAND_PAGE_SIZE := 4096 -s 128
 BOARD_KERNEL_BASE := 0x32000000
