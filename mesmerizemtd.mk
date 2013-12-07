@@ -45,4 +45,4 @@ DEVICE_PACKAGE_OVERLAYS := device/samsung/mesmerizemtd/overlay \
 
 $(call inherit-product, device/samsung/fascinatemtd/device.mk)
 
-TARGET_OTA_ASSERT_DEVICE := aries,mesmerize,mesmerizemtd,SCH-I500
+#TARGET_OTA_ASSERT_DEVICE := aries,mesmerize,mesmerizemtd,SCH-I500
